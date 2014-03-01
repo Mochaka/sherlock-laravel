@@ -1,0 +1,23 @@
+{
+    "name": "daniam/sherlock",
+    "description": "A Laravel service provider for the Sherlock elasticsearch library.",
+    "authors": [
+        {
+            "name": "Daniel John Alloway",
+            "email": "dan@micahsix.com"
+        }
+    ],
+    "keywords": ["laravel", "search", "sherlock", "elasticsearch"],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "sherlock/sherlock": "0.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DanIAm\\Sherlock": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
